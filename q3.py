@@ -438,7 +438,7 @@ if __name__ == '__main__':
     # ### SET MODE HERE ###
     # "train": Runs full training, saves models, and saves plot data.
     # "plot_and_video": Loads saved plot data and best model, skips training.
-    MODE = "train" 
+    MODE = "plot_and_video" 
     # ------------------------------------------------------------------
 
     # Define file paths

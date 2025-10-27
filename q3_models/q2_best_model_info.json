@@ -1,9 +1,0 @@
-{
-    "config": {
-        "name": "DDQN",
-        "ddqn": true,
-        "dueling": false
-    },
-    "seed": 0,
-    "score": 1.2420843994713484
-}
