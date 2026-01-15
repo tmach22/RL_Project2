@@ -39,7 +39,6 @@ We evaluated the agents on **50 held-out TextWorld environments**. The DPO-align
 | :--- | :---: | :---: |
 | **SFT Baseline** | 0.7200 | 18.10 |
 | **DPO Agent (Ours)** | **0.8200** | **14.28** |
-*Source: *
 
 ### Behavioral Analysis
 
@@ -49,7 +48,6 @@ The DPO alignment successfully unlearned "looping" behaviors (e.g., repeatedly c
 | :--- | :---: | :---: | :---: |
 | **Repetition Rate** | 0.0590 | **0.0010** | **~98% Reduction** |
 | **Hallucination Rate** | 0.1733 | 0.2531 | *See Note below* |
-[cite_start]*Source: *
 
 *> **Note:** While hallucination rate increased slightly, qualitative analysis shows this corresponds to the DPO agent attempting more complex, goal-oriented actions rather than passively looping safe commands.*
 
@@ -69,4 +67,5 @@ source venv/bin/activate
 # Install dependencies
 pip install -r requirements.txt
 pip install textworld
+
 
